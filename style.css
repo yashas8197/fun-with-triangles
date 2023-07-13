@@ -1,0 +1,95 @@
+h1 {
+  color: white;
+}
+
+:root {
+  --primary-color: #5b21b6;
+  --secondary-color: #1e1b4b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-color);
+}
+
+.container {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.list-non-bullets {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0px 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+.navigation .nav-pills {
+  text-align: left;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navigation .link-active {
+  border-bottom: 3px solid white;
+}
+
+/* button */
+
+#is-triangle-btn {
+  background-color: var(--primary-color);
+  color: white;
+  width: 40vw;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.input-angles {
+  padding: 1rem;
+  margin: auto;
+  display: block;
+  width: 40vw;
+}
+
+.angles-label {
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 1rem;
+}
+
+/* outputdiv */
+
+.output-div {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  margin: 1rem;
+}
+
+.question-container {
+  display: block;
+  color: white;
+  border: 2px solid var(--primary-color);
+  width: 40vw;
+  margin: auto;
+  padding: 1rem;
+}
