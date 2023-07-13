@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component lib</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>yashas's component library</h1>
+    <hr />
+    <h1>@navigation</h1>
+    <nav class="navigation container">
+      <ul class="list-non-bullets nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Is Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">Area</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- button -->
+    <hr />
+    <h1>@button</h1>
+
+    <button class="commonBtn" id="is-triangle-btn">IsTriangle</button>
+
+    <hr />
+
+    <h1>@label and @input</h1>
+
+    <label class="angles-label" for="angle1">angle1:</label>
+    <input placeholder="enter angle" type="number" class="input-angles" />
+
+    <hr />
+    <h1>@output div</h1>
+    <div class="output-div" id="output"></div>
+
+    <hr />
+    <h1>@quiz question div</h1>
+
+    <div class="question-container">
+      <p>
+        What is the third angle for the triangle where angle1= 45° and
+        angle2=45°?
+      </p>
+      <label for=""><input name="question1" type="radio" />45°</label>
+      <label for=""><input name="question1" type="radio" />60°</label>
+      <label for=""><input name="question1" type="radio" />90°</label>
+    </div>
+  </body>
+</html>
