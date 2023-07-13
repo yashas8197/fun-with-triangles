@@ -52,7 +52,7 @@ body {
 
 /* button */
 
-#is-triangle-btn {
+.commonBtn {
   background-color: var(--primary-color);
   color: white;
   width: 40vw;
