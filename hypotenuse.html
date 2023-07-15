@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hypotenuse</title>
+  </head>
+  <body>
+    <nav class="navigation container">
+      <ul class="list-non-bullets nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="index.html">Is Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="quiz.html">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="area.html">Area</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h1>Check Hypotenuse</h1>
+      <h2 class="question-container">
+        Length of Hypotenuse = sqrt(a<sup>2</sup> + b<sup>2</sup>)
+      </h2>
+      <label class="angles-label" for="mesurement">a =</label>
+      <input
+        placeholder="enter mesurement"
+        type="number"
+        class="input-angles side-input"
+      />
+      <label class="angles-label" for="mesurement">b =</label>
+      <input
+        placeholder="enter mesurement"
+        type="number"
+        class="input-angles side-input"
+      />
+      <button class="commonBtn" id="hypotenuse-btn">check Hyotenuse</button>
+
+      <div class="output-div" id="output-hypo"></div>
+    </div>
+
+    <script src="hypotenuse.js"></script>
+  </body>
+</html>
