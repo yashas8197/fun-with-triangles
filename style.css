@@ -94,3 +94,10 @@ body {
   padding: 1rem;
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 767px) {
+  .link {
+    display: block;
+    text-align: center;
+  }
+}
